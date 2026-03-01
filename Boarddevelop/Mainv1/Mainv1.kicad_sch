@@ -2,9 +2,53 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 2f9812ee-cc02-4b04-baa3-83e13ffe25be)
+	(uuid "2f9812ee-cc02-4b04-baa3-83e13ffe25be")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 17.78 17.78)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0607e24c-e642-434f-9d14-7970e6256c67")
+		(property "Sheetname" "ACD"
+			(at 17.78 -482.8554 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ACD.kicad_sch"
+			(at 17.78 523.3684 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mainv1"
+				(path "/2f9812ee-cc02-4b04-baa3-83e13ffe25be"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
