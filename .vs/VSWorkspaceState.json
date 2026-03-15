@@ -1,10 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Boarddevelop\\Mainv1\\Mainv1-backups",
     "\\Master",
-    "\\Master\\MainControl"
+    "\\Master\\Input",
+    "\\Master\\MainControl",
+    "\\Master\\MainControl\\LiveOutput",
+    "\\Sever",
+    "\\Sever\\Contaners",
+    "\\Sever\\SQL"
   ],
-  "SelectedNode": "\\Master\\MainControl\\Core.cpp",
+  "SelectedNode": "\\Master\\MainControl\\GUI",
   "PreviewInSolutionExplorer": false
 }
