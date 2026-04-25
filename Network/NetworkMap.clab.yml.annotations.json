@@ -1,0 +1,66 @@
+{
+  "freeTextAnnotations": [],
+  "freeShapeAnnotations": [],
+  "trafficRateAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "HF_Recever",
+      "position": {
+        "x": 520,
+        "y": 260
+      },
+      "icon": "client"
+    },
+    {
+      "id": "RadioNetworkSwitch",
+      "position": {
+        "x": 380,
+        "y": 320
+      },
+      "icon": "switch",
+      "interfacePattern": "e1-{n}"
+    },
+    {
+      "id": "SHF_Recever",
+      "position": {
+        "x": 520,
+        "y": 320
+      },
+      "icon": "client",
+      "interfacePattern": "e1-{n}"
+    },
+    {
+      "id": "UHF_Recever",
+      "position": {
+        "x": 520,
+        "y": 380
+      },
+      "icon": "client",
+      "interfacePattern": "e1-{n}",
+      "iconCornerRadius": 0
+    },
+    {
+      "id": "VHF_Recever",
+      "position": {
+        "x": 520,
+        "y": 440
+      },
+      "icon": "client",
+      "interfacePattern": "e1-{n}"
+    },
+    {
+      "id": "RadioServer",
+      "position": {
+        "x": 380,
+        "y": 220
+      },
+      "icon": "server",
+      "interfacePattern": "e1-{n}"
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}

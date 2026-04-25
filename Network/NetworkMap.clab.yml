@@ -1,0 +1,29 @@
+name: NetworkMap
+
+topology:
+  nodes:
+    RadioNetworkSwitch:
+      kind: openwrt
+    HF_Recever:
+      kind: linux
+      image: ghcr.io/srl-labs/network-multitool:latest
+    SHF_Recever:
+      kind: linux
+      image: ghcr.io/nokia/srlinux:latest
+    RadioServer:
+      kind: linux
+      image: ghcr.io/nokia/srlinux:latest
+    UHF_Recever:
+      kind: linux
+      image: ghcr.io/nokia/srlinux:latest
+    VHF_Recever:
+      kind: linux
+      image: ghcr.io/nokia/srlinux:latest
+
+  links:
+    - endpoints: [ "RadioNetworkSwitch:e1-1", "HF_Recever:eth1" ]
+    - endpoints: [ "RadioNetworkSwitch:e1-2", "SHF_Recever:eth1" ]
+    - endpoints: [ "RadioNetworkSwitch:e1-3", "UHF_Recever:eth1" ]
+    - endpoints: [ "RadioNetworkSwitch:e1-4", "VHF_Recever:e1-1" ]
+    - endpoints: [ "RadioNetworkSwitch:e1-5", "RadioServer:e1-1" ]
+    - endpoints: [ "RadioNetworkSwitch:e1-6", "RadioServer:e1-2" ]
